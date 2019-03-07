@@ -6,7 +6,7 @@ import (
 
 	"log"
 
-	"github.com/czerwonk/junos_exporter/connector"
+	"github.com/M3philis/junos_exporter/connector"
 )
 
 // Client sends commands to JunOS and parses results

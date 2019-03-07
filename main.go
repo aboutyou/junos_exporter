@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/czerwonk/junos_exporter/connector"
+	"github.com/M3philis/junos_exporter/connector"
 	"github.com/pkg/errors"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
 
-	"github.com/czerwonk/junos_exporter/config"
+	"github.com/M3philis/junos_exporter/config"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/log"
@@ -132,7 +132,7 @@ func startServer() {
 			<h1>JunOS Exporter</h1>
 			<p><a href="` + *metricsPath + `">Metrics</a></p>
 			<h2>More information:</h2>
-			<p><a href="https://github.com/czerwonk/junos_exporter">github.com/czerwonk/junos_exporter</a></p>
+			<p><a href="https://github.com/M3philis/junos_exporter">github.com/M3philis/junos_exporter</a></p>
 			</body>
 			</html>`))
 	})
