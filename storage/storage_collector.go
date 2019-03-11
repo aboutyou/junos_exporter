@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/M3philis/junos_exporter/collector"
-	"github.com/M3philis/junos_exporter/rpc"
+	"github.com/aboutyou/junos_exporter/collector"
+	"github.com/aboutyou/junos_exporter/rpc"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
